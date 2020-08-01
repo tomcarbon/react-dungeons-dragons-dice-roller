@@ -1,0 +1,134 @@
+.official-background-color {
+	background: 	rgba(66,13,9,1);
+}
+
+.official-body {
+	min-height: 	89vh;
+	text-align: 	center;
+	color:		orange;	
+}
+
+
+.official-menu-window {
+	background: 	rgba(10,25,12,1.0);
+	border-radius:	14px;
+	padding-bottom:	5px;
+}
+
+.special-font {
+	font-family:    'Princess Sofia';
+}
+
+.official-menu-buttonstyle {
+	height: 30px;
+	background: 	rgba(1,50,32,1);
+	color:		orange;
+	margin-top:	20px;
+	margin-left:	10px;
+	border-radius: 	10px;
+	border-color:	darkblue;
+	font-weight:	bold;
+}
+
+.official-cleardie-buttonstyle {
+	position: 	relative;
+	top:		20px;
+	height: 35px;
+	background: 	rgba(1,50,32,1);
+	color:		white;
+	border-radius: 	10px;
+	border-color:	darkblue;
+	font-weight:	normal;
+}
+
+.official-roll-buttonstyle {
+	position:	relative;
+	right:		20px;
+	height: 	35px;
+	background: 	rgba(1,50,32,1);
+	color:		darkred;
+	margin-top:	20px;
+	margin-left:	10px;
+	border-radius: 	20px;
+	border-color:	darkblue;
+	font-weight:	bolder;
+}
+.offical-logo1 {
+	max-width: 100%;
+}
+
+.offical-logo2 {
+	max-width: 100%;
+}
+
+
+
+.official-textarea {
+	width: 80%;
+	height: 40vh;
+	background: rgba(255,203,164,1);
+	font-size: 32px;
+	font-weight: bolder;
+	border: 	2px solid black;
+	border-radius:	10px;
+	text-align: center;
+	resize: none;
+}
+
+.official-die {
+	margin-top:      10px;
+	text-align:	left;
+	width:		auto;
+	min-height:	70px;
+	background:	rgba(0,0,0,0.5);
+	border-radius:	20px;
+}
+/*
+.official-die {
+	width: 100%;
+	height: 10vh;
+	background: rgba(0,0,164,1);
+	font-size: 32px;
+	font-weight: bolder;
+	border: 	2px solid black;
+	border-radius:	10px;
+	text-align: left;
+	resize: none;
+}
+*/
+
+.official-diceimage {
+	position:	relative;
+	top:		5px;
+	left:		-15px;
+	height:		60px;
+}
+
+.official-roll-result-display {
+	height:		auto;
+	background:	rgba(200,200,200,1);
+	color:		white;
+	border-radius:	20px;
+}
+
+.offical-text-clear-button {
+	background: rgba(155,103,064,1);
+	width:		15%;
+	height:		5vh;
+	color:		green;
+}
+
+.word-streamer-box {
+	width: 100%;
+	height: 70vh;
+	background: rgba(155,203,250,1);
+	color:	black;
+	font-size: 22px;
+	font-weight: bolder;
+	border: 	2px solid black;
+	border-radius:	10px;
+	text-align: center;
+	resize: none;
+	overflow-y:	scroll;
+}
+
