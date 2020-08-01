@@ -92,6 +92,11 @@ class MenuBar extends React.Component {
 							onClick={() => handleToUpdate('D1')}>
 							WORDSTREAM
 						</HoverButton>
+						<HoverButton 
+							className="official-menu-buttonstyle"
+							onClick={() => handleToUpdate('E1')}>
+							SHOP TOOL
+						</HoverButton>
 					</Col>
 					<Col xs="12" sm="5">
 						<HoverImg       onClick={this.tipScreen}
