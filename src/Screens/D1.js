@@ -4,7 +4,6 @@
 import React from "react";
 import styled from "styled-components";
 import "../css/site.css";
-import TextArea from "../components/TextArea";
 import Container from "react-bootstrap/Container";
 
 const HoverButton = styled.button`
