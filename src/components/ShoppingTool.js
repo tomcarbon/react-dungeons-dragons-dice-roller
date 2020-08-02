@@ -3,8 +3,19 @@
 									style={{position:"absolute", right:"20px", top:"20px"}} />
  * ****************************************/
 import React from 'react';
+import styled from "styled-components";
 //import Container from "react-bootstrap/Container";
 import ArrowButton from "./ArrowButton";
+
+const HoverButton = styled.button`
+        :hover {
+		cursor: pointer;
+		position: relative;
+		top:  1px;
+		left: 1px;
+	}
+`
+
 
 class ShoppingTool extends React.Component {
 	constructor(props) {
@@ -58,10 +69,56 @@ class ShoppingTool extends React.Component {
 		this.setState({[a]: x});
 	}
 
+	resetContents = () =>  {
+		if (window.confirm("Are you sure you want to reset your shopping list?")) {
+			this.setState({r1: false});
+			this.setState({r2: false});
+			this.setState({r3: false});
+			this.setState({r4: false});
+			this.setState({r5: false});
+			this.setState({r6: false});
+			this.setState({r7: false});
+			this.setState({r8: false});
+			this.setState({r9: false});
+			this.setState({r10: false});
+			this.setState({r11: false});
+			this.setState({r12: false});
+			this.setState({r13: false});
+			this.setState({r14: false});
+			this.setState({r15: false});
+			this.setState({r16: false});
+			this.setState({r17: false});
+			this.setState({r18: false});
+			this.setState({r19: false});
+			this.setState({r20: false});
+			this.setState({l1: false});
+			this.setState({l2: false});
+			this.setState({l3: false});
+			this.setState({l4: false});
+			this.setState({l5: false});
+			this.setState({l6: false});
+			this.setState({l7: false});
+			this.setState({l8: false});
+			this.setState({l9: false});
+			this.setState({l10: false});
+			this.setState({l11: false});
+			this.setState({l12: false});
+			this.setState({l13: false});
+			this.setState({l14: false});
+			this.setState({l15: false});
+			this.setState({l16: false});
+			this.setState({l17: false});
+			this.setState({l18: false});
+			this.setState({l19: false});
+			this.setState({l20: false});
+		}
+	}
+
+
 	render() {
 	  var flipIt = this.flipIt;
 		return (
-					<div style={{position:"relative", left:"0", top:"0", width:"435px"}}>
+					<div style={{margin:"auto", position:"relative", left:"0", top:"0", width:"435px"}}>
 						<img src={require('../images/shopping-main.png')} 
 						    style={{position:"relative", top:"0px", left:"0px"}} alt="offline" 
 						/>
@@ -108,6 +165,10 @@ class ShoppingTool extends React.Component {
 						<ArrowButton idx="r18" flipIt={flipIt.bind(this)} showit={this.state.r18} top="450px" right="30px"></ArrowButton>
 						<ArrowButton idx="r19" flipIt={flipIt.bind(this)} showit={this.state.r19} top="470px" right="30px"></ArrowButton>
 						<ArrowButton idx="r20" flipIt={flipIt.bind(this)} showit={this.state.r20} top="490px" right="30px"></ArrowButton>
+						<HoverButton 
+							onClick={this.resetContents} 
+							className="official-menu-buttonstyle">RESET
+						</HoverButton> 
 
 					</div>
 									

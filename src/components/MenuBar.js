@@ -95,7 +95,7 @@ class MenuBar extends React.Component {
 						<HoverButton 
 							className="official-menu-buttonstyle"
 							onClick={() => handleToUpdate('E1')}>
-							SHOP TOOL
+							GROCERIES
 						</HoverButton>
 					</Col>
 					<Col xs="12" sm="5">
