@@ -1,6 +1,5 @@
 
-
-
+20221221 NOTE: This can be built on node 16.19.0... versions of node that are 17 and over will produce a 'digital envelope routines::unsupported' error!
 
 **DOCKER-REACT-DUNGEONS-DRAGONS-DICE-ROLLER** (and notepad)
 
